@@ -1,0 +1,24 @@
+{
+  "name": "ubbi-dubbi-gallery-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachstence/ubbi-dubbi-gallery-scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachstence/ubbi-dubbi-gallery-scrape/issues"
+  },
+  "homepage": "https://github.com/zachstence/ubbi-dubbi-gallery-scrape#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
