@@ -4,14 +4,14 @@ import cheerio from 'cheerio'
 
 const outDir = `${__dirname}/out`
 
-const galleryUrl = 'https://ubbidubbifestival.com/photos'
+const galleryUrl = 'https://freakydeaky.com'
 
 const gallerySelectors = {
     day1: '#day-1-photos',
     day2: '#day-2-photos',
 }
 
-const imageUrlPrefix = 'https://storage.googleapis.com/2023-ubbidubbifestival-com/2023/04/'
+const imageUrlPrefix = 'https://storage.googleapis.com/2023-freakydeaky-com/2023/11/'
 
 const filenameFromUrlRegex = /^.*\/(.*?)$/
 
